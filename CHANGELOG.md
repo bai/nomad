@@ -7,6 +7,8 @@ FEATURES:
 IMPROVEMENTS:
 
  * core: Add node name to output of `nomad node status` command in verbose mode [[GH-5224](https://github.com/hashicorp/nomad/pull/5224)]
+ * telemetry: Add `client.allocs.memory.allocated` metric to expose allocated
+   task memory in bytes. [[GH-5492](https://github.com/hashicorp/nomad/issues/5492)]
 
 ## 0.9.0 (April 9, 2019)
 
