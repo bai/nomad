@@ -3,10 +3,14 @@
 FEATURES:
 
  * vault: Add initial support for Vault namespaces [[GH-5520](https://github.com/hashicorp/nomad/pull/5520)]
- 
+
 IMPROVEMENTS:
 
  * core: Add node name to output of `nomad node status` command in verbose mode [[GH-5224](https://github.com/hashicorp/nomad/pull/5224)]
+
+BUG FIXES:
+
+ * vault: Fix renewal time to be 1/2 lease duration with jitter [[GH-5479](https://github.com/hashicorp/nomad/issues/5479)]
 
 ## 0.9.0 (April 9, 2019)
 
